@@ -1,0 +1,1 @@
+document.getElementById('dato').valueAsDate = new Date();

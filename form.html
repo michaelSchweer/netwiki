@@ -1,0 +1,39 @@
+<html>
+	<head>
+			<link rel="stylesheet" href="custom/styles/style.css">
+	</head>
+<body>
+	<div id="formdiv">
+    <form id="myform" action="custom/backend.php" method="POST">
+			Emne:
+			<br />
+			<select class="inputz" id="emne" name="emne">
+				<option class="inputzDropdown" value="emne1">Emne 1</option>
+				<option class="inputzDropdown" value="emne2">Emne 2</option>
+				<option class="inputzDropdown" value="emne3">Emne 3</option>
+				<option class="inputzDropdown" value="emne4">Emne 4</option>
+			</select>
+			<br /><br />
+			Overskrift:
+			<br />
+			<input class="inputz" id="overskrift" name="minArray[]" type="text" />
+			<br /><br />
+			Dato:
+			<br />
+			<input class="inputz" id="dato" name="minArray[]" type="date" />
+			<br /><br />
+			Forfatter:
+			<br />
+			<input class="inputz" id="forfatter" name="minArray[]" type="text" />
+			<br /><br />
+			Begrundelse:
+			<br />
+			<textarea class="inputz" id="begrundelse" name="minArray[]" cols="40" rows="20"></textarea>
+			<br />
+			<br />
+			<input id="submit" type="submit" name="submit" value="Gem">
+		</form>
+	</div>
+</body>
+<script src="custom/scripts/form.js"></script>    
+</html>
